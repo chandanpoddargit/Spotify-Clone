@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify-- Your Music Is Here</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="spotify logo.png" alt="spotify">Spotify</li>
+            <li>Home</li>
+
+            <li>About</li>
+        </ul>
+    </nav>
+    <div class="container">
+
+        <div class="songsList">
+            <h1>Best Of NCS - No CopyRight Sounds </h1>
+            <div class="songsItemContainer">
+                <div class="songItem">
+                    <img src="camera.jpg" alt="1">
+                    <span>Rao SAAB</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="camera.jpg" alt="2">
+                    <span>Ram RAm</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="camera.jpg" alt="3">
+                    <span>Lo Maan Liya</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                </div>
+                <div class="songItem">
+                    <img src="camera.jpg" alt="4">
+                    <span>Big Daws</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                </div>
+            </div>
+        </div>
+        <div class="soundBar"></div>
+    </div>
+
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <div class="icons">
+            <!-- fontAwesome of play button... -->
+            <i class="fa-solid fa-3x fa-step-backward"></i>
+            <i class="fa-solid fa-3x fa-play-circle"></i>
+            <i class="fa-solid fa-3x fa-step-forward"></i>
+        </div>
+        <div class="songInfo">
+            <img src="music gif.gif"  width="43px"  alt="gif"> Rao SAAB - Brown Boys
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+
+</html>
