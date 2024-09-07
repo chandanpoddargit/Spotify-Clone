@@ -62,6 +62,7 @@ nav ul li {
 }
 #myProgressBar {
   min-width: 80vw;
+  cursor: pointer;
 }
 .songsItemContainer{
     margin: 74px;
@@ -94,5 +95,5 @@ nav ul li {
 }
 .songInfo img{
     opacity: 0;
-    transition:opacity 1s ease-in;
+    transition:opacity 0.8s ease-in;
 }

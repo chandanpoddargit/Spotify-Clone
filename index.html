@@ -25,23 +25,23 @@
             <div class="songsItemContainer">
                 <div class="songItem">
                     <img src="camera.jpg" alt="1">
-                    <span>Rao SAAB</span>
-                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                    <span class="songName">Rao SAAB</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i id ="0" class="fa-solid songItemsPlay fa-play-circle"></i></span></i></span>
                 </div>
                 <div class="songItem">
                     <img src="camera.jpg" alt="2">
-                    <span>Ram RAm</span>
-                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                    <span class="songName">Ram RAm</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i id ="1" class="fa-solid songItemsPlay fa-play-circle"></i></span></i></span>
                 </div>
                 <div class="songItem">
                     <img src="camera.jpg" alt="3">
-                    <span>Lo Maan Liya</span>
-                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                    <span class="songName">Lo Maan Liya</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i id ="2" class="fa-solid songItemsPlay fa-play-circle"></i></span></i></span>
                 </div>
                 <div class="songItem">
                     <img src="camera.jpg" alt="4">
-                    <span>Big Daws</span>
-                    <span class="songListPlay"><span class="timeStamp">5:34 <i class="fa-solid  fa-play-circle"></i></span></i></span>
+                    <span class="songName">Big Daws</span>
+                    <span class="songListPlay"><span class="timeStamp">5:34 <i id ="3" class="fa-solid songItemsPlay fa-play-circle"></i></span></i></span>
                 </div>
             </div>
         </div>
@@ -49,15 +49,15 @@
     </div>
 
     <div class="bottom">
-        <input type="range" name="range" id="myProgressBar" min="0" max="100">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
         <div class="icons">
             <!-- fontAwesome of play button... -->
-            <i class="fa-solid fa-3x fa-step-backward"></i>
-            <i class="fa-solid fa-3x fa-play-circle"></i>
-            <i class="fa-solid fa-3x fa-step-forward"></i>
+            <i class="fa-solid fa-3x fa-step-backward" id="previous"></i>
+            <i class="fa-solid fa-3x fa-play-circle" id="masterPlay"></i>
+            <i class="fa-solid fa-3x fa-step-forward" id="next"></i>
         </div>
         <div class="songInfo">
-            <img src="music gif.gif"  width="43px"  alt="gif"> Rao SAAB - Brown Boys
+            <img src="music gif.gif"  width="43px"  alt="" class="songName" id="gif"> <span id="masterSongName"> Rao SAAB </span>
         </div>
     </div>
 </body>
